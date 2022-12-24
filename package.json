@@ -13,5 +13,10 @@
   "license": "MIT",
   "devDependencies": {
     "heroicons": "^2.0.13"
-  }
+  },
+  "keywords": [
+    "typescript",
+    "svelte",
+    "heroicons"
+  ]
 }
