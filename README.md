@@ -23,7 +23,7 @@ This means, one component for one equivalent icon.
 </script>
 
 <SolidWifi style="width: 12px; height: 12px; color: red; background: blue;" />
-<MiniWifi class="w-12 h-12 text-red-500 bg-blue-500" /> <!-- can be used with TailwindCSS -->
+<MiniWifi class="w-12 h-12 text-red-500 bg-blue-500" />
 ```
 
 ### 2. Dynamic 1-all (Recommended)
