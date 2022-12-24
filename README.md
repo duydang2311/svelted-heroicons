@@ -30,14 +30,12 @@ This means, one component for one equivalent icon.
 
 For those who don't like to have so many imports (including me), this is your way to go.
 
-#### Setup
-
-1. For compatibility with Vite bundler, I suggest you creating a single wrapper component that acts as a main entry to access the icons.
+1. Create a wrapper component that acts as a main entry to access the icons.
 
 ```svelte
 <!-- src/lib/Icon.svelte -->
 <script lang="ts">
-	import type { IconName } from 'svelted-heroicons';
+	import type { IconType, IconName } from 'svelted-heroicons';
 	export let type: IconType = 'solid';
 	export let name: IconName;
 </script>
@@ -47,7 +45,7 @@ For those who don't like to have so many imports (including me), this is your wa
 {/await}
 ```
 
-2. Import only one `Icon.svelte` and start to use.
+2. Import `Icon.svelte` and start to use.
 
 ```svelte
 <script lang="ts">
