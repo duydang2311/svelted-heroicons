@@ -1,10 +1,12 @@
 # svelted-heroicons
 
+[![NPM](https://nodei.co/npm/svelted-heroicons.png)](https://npmjs.org/package/svelted-heroicons)
+
 My attempt for better dev experience when using Heroicons in Svelte.
 
 ## Installation
 
-```
+```bash
 npm install --save-dev svelted-heroicons
 ```
 
