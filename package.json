@@ -1,6 +1,6 @@
 {
   "name": "svelted-heroicons",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -17,7 +17,10 @@
   "keywords": [
     "typescript",
     "svelte",
-    "heroicons"
+    "heroicons",
+    "icon",
+    "icons",
+    "tailwindcss"
   ],
   "repository": {
     "type": "git",
