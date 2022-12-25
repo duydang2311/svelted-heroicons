@@ -1,6 +1,6 @@
 {
   "name": "svelted-heroicons",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -18,5 +18,12 @@
     "typescript",
     "svelte",
     "heroicons"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duydang2311/svelted-heroicons/"
+  },
+  "bugs": {
+    "url": "https://github.com/duydang2311/svelted-heroicons/issues"
+  }
 }
