@@ -46,9 +46,7 @@ for (const file of svgs) {
       .then((buffer) =>
         fs.writeFile(
           outDir + "/" + fileName.replace(".svg", ".svelte"),
-          Buffer.from(
-            '<svg {...$$restProps} class="w-6 h-6 {$$restProps.class}"'
-          ) + buffer.subarray(length),
+          Buffer.from("<svg {...$$restProps}") + buffer.subarray(length),
           (err) => {
             if (err) {
               throw err;
