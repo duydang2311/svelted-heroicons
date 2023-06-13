@@ -12,7 +12,7 @@
   "author": "duydang2311",
   "license": "MIT",
   "devDependencies": {
-    "heroicons": "^2.0.13"
+    "heroicons": "^2.0.18"
   },
   "keywords": [
     "typescript",
